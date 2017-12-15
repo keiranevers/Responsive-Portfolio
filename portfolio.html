@@ -2,90 +2,67 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"></link>
-        <style>
-			div.gallery {
-    		margin: 5px;
-    			border: 1px solid #ccc;
-    			float: left;
-    			width: 180px;
-			}
-
-			div.gallery {
-    			border: 1px solid #777;
-			}
-
-			div.gallery img {
-    			width: 100%;
-    			height: auto;
-			}
-
-			div.desc {
-    			padding: 15px;
-    			text-align: center;
-			
-</style>
     </head>
     <body>
-    
-        <div class="backgroundHeader">
-            <h1 style="margin-left: 40px">Keira Nevers</h1>
-            <a class="navBar" href="contact.html">Contact</a>
-            <a class="navBar" href="portfolio.html">Portfolio</a>
-            <a class="navBar" href="index.html">About</a>
-            <section class="block">
-        </div>
-    <div class="mainHeader"> 
-    	<div id="block">
-            <h2 class="block"><strong>Portfolio</strong></h2>
-            <section class="block" ><br>
-            <div class="block">
-            	<div class="gallery">
-  					<a class="color-block" target="_blank" href="https://keiranevers.github.io/HW-Wireframe">HW-Wireframe
-    				<img src="images/Tulips.jpg" alt="HW_Wireframe" width="300" height="200">
-  					</a>
-				</div>
-
-				<div class="gallery">
-  					<a class="color-block" target="_blank" href="https://keiranevers.github.io/KJN-week1-day2-html-css/KeiraNeversBio.html">Student Bio
-    				<img src="images/Koala.jpg" alt="Student Bio" width="600" height="400">
-  					</a>
-  				</div>
-
-				<div class="gallery">
-  					<a class="color-block" target="_blank" href="https://keiranevers.github.io/Class02_NewRepository/01_HTML.html">Murphy
-   					<img src="images/Lighthouse.jpg" alt="Murphy" width="600" height="400">
- 					</a>
-				</div>
-
-				<div class="gallery">
-  					<a class="color-block" target="_blank" href="https://keiranevers.github.io/pets-page">Pets
-    				<img src="images/Penguins.jpg" alt="Pets" width="600" height="400">
-  					</a>
-  				</div>
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Keira Nevers</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
             </div>
-        </div>
+        </header>
 
-    </div>   
-    <div id="connect">
-            <h3>Connect with Me</h3>
-            <section class="block"></section><br>
-                <a class="links" href="mailto:keira.nevers@gmail.com" target="_blank">
-                <img src="images/email-icon.jpg" width=60 height=60>
-                </a>
-                <a class="links" href="http://www.linkedin.com/in/keiranevers/" target="_blank">
-                <img src="images/linkedin-icon.jpg" width=60 height=60>
-                </a>
-                <a class="links" href="https://github.com/keiranevers" target="_blank">
-                <img src="images/github-icon.jpg" width=60 height=60>
-                </a>
-                <a class="links" href="https://www.facebook.com/keira.nevers" target="_blank">
-                <img src="images/facebook-icon.jpg" width=200 height=150>
-                </a>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Portfolio</h1>
+
+                <div class="work">
+                    <a class="color-block" target="_blank" href="https://keiranevers.github.io/HW-Wireframe">HW-Wireframe
+                    <img src="images/Tulips.jpg" alt="HW_Wireframe">
+                    </a>
+                </div>
+
+                <div class="work">
+                    <a class="color-block" target="_blank" href="https://keiranevers.github.io/KJN-week1-day2-html-css/KeiraNeversBio.html">Student Bio
+                    <img src="images/Koala.jpg" alt="Student Bio">
+                    </a>
+                </div>
+
+                <div class="work">
+                    <a class="color-block" target="_blank" href="https://keiranevers.github.io/Class02_NewRepository/01_HTML.html">Murphy
+                    <img src="images/Lighthouse.jpg" alt="Murphy">
+                    </a>
+                </div>
+                <div class="work">
+                    <a class="color-block" target="_blank" href="https://keiranevers.github.io/pets-page/01_HTML.html">Pets
+                    <img src="images/Penguins.jpg" alt="Pets">
+                    </a>
+                </div>
+            </section>
+
+            <section class="sidebar">
+                <div id="connect">
+                    <h2>Connect with Me</h2>
+
+                    <a class="links" href="mailto:keira.nevers@gmail.com" target="_blank"><img src="images/email-icon.jpg" class="social">
+                    </a>
+                    <a class="links" href="http://www.linkedin.com/in/keiranevers/" target="_blank"><img src="images/linkedin-icon.jpg" class="social">
+                    </a>
+                    <a class="links" href="https://github.com/keiranevers" target="_blank"><img src="images/github-icon.jpg" class="social">
+                    </a>
+                    <a class="links" href="https://www.facebook.com/keira.nevers" target="_blank"><img src="images/facebook-icon.jpg" class="social">
+                    </a>
+                </div>
+            </section>
         </div>
         <footer>
             Copywrite 2017: Keira Nevers
         </footer>
-
     </body>
 </html>
